@@ -1,0 +1,285 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.clear-fix {
+  clear: both;
+}
+body {
+  font-family: "Alegreya", serif;
+}
+.header {
+  height: 100vh;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.nav-bar {
+  width: 100%;
+}
+
+.nav-bar img {
+  height: 48px;
+  padding: 15px 40px 0 150px;
+  float: left;
+}
+.nav-bar .sections ul {
+  list-style: none;
+}
+.nav-bar .sections {
+  float: left;
+  margin: 0 0 0 500px;
+}
+.nav-bar .sections a {
+  text-decoration: none;
+  color: #e0dedf;
+}
+.nav-bar .sections li {
+  float: left;
+  padding: 25px 20px;
+  font-size: 20px;
+}
+.nav-bar .sections li.active {
+  border-top: solid 3px #e0c690;
+}
+.nav-bar .sections li.active a {
+  color: #e0dcd2;
+}
+.home {
+  text-align: center;
+  margin: 200px auto;
+  color: white;
+  width: 50%;
+}
+.home h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.home h1 {
+  margin-bottom: 18px;
+  font-size: 76px;
+  font-weight: normal;
+}
+.home p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.home button {
+  padding: 20px 25px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 5px;
+}
+.home button.active {
+  background-color: #8e7754;
+  border: 0;
+}
+.header .mouse-logo {
+  width: 32px;
+  height: 50px;
+  border-radius: 24px;
+  background-color: transparent;
+  border: solid 2px white;
+  margin: 40px auto;
+}
+.about {
+  margin: 90px 0 90px 120px;
+  display: inline-block;
+}
+
+.about div.about-img {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.about div.info {
+  width: 50%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 0;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+.about div.about-img img {
+  width: 100%;
+}
+.about div.info h2 {
+  font-weight: normal;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.about div.info p {
+  font-size: 18px;
+  color: #6d6968;
+  padding-bottom: 20px;
+}
+.about div.info ul {
+  font-size: 18px;
+  color: #6d6968;
+  list-style: none;
+  margin-left: 50px;
+  line-height: 1;
+}
+
+.about div.info ul img {
+  width: 40px;
+}
+.location {
+  background-color: #f8f8f8;
+  padding: 90px;
+  display: inline-block;
+}
+
+.location-img {
+  margin-left: 40px;
+  width: 40%;
+  display: inline-block;
+}
+.location-info {
+  margin-top: 40px;
+  margin-left: 110px;
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.location-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+.location-info h2 {
+  font-weight: normal;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #303030;
+}
+.location-info p {
+  font-size: 18px;
+  color: #6d6968;
+  line-height: 1.8;
+}
+.baking {
+  text-align: center;
+  margin-top: 70px;
+}
+.baking h2 {
+  font-weight: normal;
+  font-size: 28px;
+}
+.baking p {
+  margin: 30px 0;
+  color: #6d6968;
+}
+.baking .item {
+  float: left;
+  width: 25%;
+  margin: 60px;
+}
+
+.baking .item img {
+  width: 100%;
+}
+.baking .item h3 {
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.baking .item p {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.contact {
+  background-color: #f8f8f8;
+  padding: 90px;
+}
+.contact ul {
+  font-size: 18px;
+  color: #6d6968;
+  list-style: none;
+  line-height: 1;
+}
+.contact ul img {
+  width: 40px;
+}
+
+.contact-map {
+  margin-left: 30px;
+  width: 40%;
+
+  float: left;
+}
+.contact-map iframe {
+  width: 100%;
+  height: 600px;
+}
+.contact-info {
+  margin-top: 80px;
+  margin-left: 150px;
+  width: 40%;
+  float: left;
+}
+.contact .contact-info p {
+color: #6d6968;
+font-size: 18px;
+  line-height: 1.8;
+}
+.contact .contact-info h2 {
+  font-weight: normal;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #303030;
+}
+
+.footer {
+  background-color: #403d38;
+}
+.footer .col {
+  float: left;
+  width: 20%;
+  margin: 30px;
+}
+.footer .col h3 {
+  color: #fff;
+  font-weight: normal;
+  margin: 20px;
+}
+.footer .col p {
+  margin: 30px 20px;
+  line-height: 1.5;
+  color: #969696;
+}
+.footer .col ul {
+  list-style: none;
+  margin: 20px;
+}
+.footer .col ul li {
+  padding: 10px 0 15px;
+  color: #969696;
+  border-bottom: 1px solid #96969691;
+}
+.footer .col ul li.site a {
+  text-decoration: none;
+  color: #969696;
+}
+.end {
+  background-color: #353330;
+  text-align: center;
+}
+.end img {
+  margin: 50px 0 20px;
+}
+.end p {
+  color: #969696;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.end .social-logo img {
+  width: 40px;
+  margin: 10px 0;
+}
